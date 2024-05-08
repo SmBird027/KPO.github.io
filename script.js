@@ -11,7 +11,7 @@ optionImages.forEach((image, index) => {
     image.classList.add("active");
 
     userResult.src = cpuResult.src = "images/rock.png";
-    result.textContent = "Wait...";
+    result.textContent = "Várj...";
 
     // Loop minden opció képen át ismét
     optionImages.forEach((image2, index2) => {
